@@ -15,7 +15,7 @@ The files added to the branch for this Bachelor Thesis Research are the followin
 * qlknn/plot_NNs.py: Plot all the networks from the grid search including the data points using the quickslicer
 * camille-scripts: Scripts tackling the data processing portion of the project
 
-Additionally, some other methode were added in already existing files:
+Additionally, some other methods were added in already existing files:
 * negative_filter_to_zero in qlknn/dataset/filtering.py: Clips the predicted negative fluxes to zero
 * determine_At in qlknn/dataset/hypercube_to_pandas.py: Determine At when Ati != Ate
 * train2 in qlknn/training/keras_models.py, train2 and train_NDNN_from_folder2 in qlknn/training/train_NDNN.py: Allows to save multiple nn.json file when training (useful for the grid search)
