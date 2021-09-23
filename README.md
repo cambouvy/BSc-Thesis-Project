@@ -7,13 +7,13 @@ Read the [GitLab Pages](https://karel-van-de-plassche.gitlab.io/QLKNN-develop/) 
 ## BTR Camille
 This work was done for the the Bachelor Thesis Research project  "Modelling Turbulent Transport For The Tokamak L-Mode Edge using Neural Networks". As this work was carried out in collaboration with DIFFER within the QLKNN project, the code for this work is a branch of the QLKNN-develop project.
 The files added to the branch for this Bachelor Thesis Research are the following:
-* camille-scripts: Scripts tackling the data processing portion of the project
 * qlknn/dataset/filter_archive/edgerun_eight.py: Pre-processes and filters the data
 * qlknn/training/gridSearch.py: Grid search on the L2 and batch size parameters (this file was split in 25 files - one per NN - for the sake of parallelization in the folder grid_searches_hyperparam)
 * qlknn/training/gridSearch_structure.py: Grid search on the number of hidden layers and nodes per layer parameters (this file was split in 25 files - one per NN - for the sake of parallelization in the folder grid_searches_structure)
 * qlknn/models/evaluateNN.py: Evaluate the RMSE of the grid search NNs
 * qlknn/models/plotNN.py: Plots predictions of the NNs on linearly spaced input 
 * qlknn/plot_NNs.py: Plot all the networks from the grid search including the data points using the quickslicer
+* camille-scripts: Scripts tackling the data processing portion of the project
 
 Additionally, some other methode were added in already existing files:
 * negative_filter_to_zero in qlknn/dataset/filtering.py: Clips the predicted negative fluxes to zero
