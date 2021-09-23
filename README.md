@@ -5,7 +5,7 @@
 Read the [GitLab Pages](https://karel-van-de-plassche.gitlab.io/QLKNN-develop/) and [wiki](https://gitlab.com/Karel-van-de-Plassche/QLKNN-develop/-/wikis/home) for more information.
 
 ## BTR Camille
-This work was done for the the Bachelor Thesis Research project  "Modelling Turbulent Transport For The Tokamak L-Mode Edge using Neural Networks". As this work was carried out in collaboration with DIFFER within the QLKNN project, the code for this work is a branch of the QLKNN-develop project. That is, **most of the files are not my own work** (see [GitLab](https://karel-van-de-plassche.gitlab.io/QLKNN-develop/)).
+This work was done for the the Bachelor Thesis Research project  "Modelling Turbulent Transport For The Tokamak L-Mode Edge using Neural Networks". As this work was carried out in collaboration with DIFFER within the QLKNN project, the code for this work is a branch of the QLKNN-develop project. That is, **only a small part of this repository are my own work** (see [GitLab](https://karel-van-de-plassche.gitlab.io/QLKNN-develop/)).
 
 The files added to the branch for this Bachelor Thesis Research are the following:
 * qlknn/dataset/filter_archive/edgerun_eight.py: Pre-processes and filters the data
