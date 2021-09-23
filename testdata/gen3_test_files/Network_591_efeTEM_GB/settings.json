@@ -1,0 +1,46 @@
+{
+    "adadelta_rho": 0.95,
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "cost_l1_scale": 0.0,
+    "cost_l2_scale": 5e-05,
+    "dataset_path": "/home/karel/working/QLKNN-develop/unstable_training_gen3_7D_nions0_flat_filter8.h5",
+    "drop_chance": 0.0,
+    "drop_outlier_above": 0.999,
+    "drop_outlier_below": 0.001,
+    "dtype": "float32",
+    "early_stop_after": 15,
+    "early_stop_measure": "loss",
+    "epochs_per_report": null,
+    "goodness": "mse",
+    "hidden_activation": [
+        "tanh",
+        "tanh",
+        "tanh"
+    ],
+    "hidden_neurons": [
+        128,
+        128,
+        128
+    ],
+    "lbfgs_maxfun": 1000,
+    "lbfgs_maxiter": 15000,
+    "lbfgs_maxls": 20,
+    "learning_rate": 0.001,
+    "max_epoch": null,
+    "minibatches": 10,
+    "optimizer": "adam",
+    "output_activation": "none",
+    "rmsprop_decay": 0.9,
+    "rmsprop_momentum": 0.0,
+    "save_best_networks": null,
+    "save_checkpoint_networks": null,
+    "standardization": "normsm_1_0",
+    "steps_per_report": null,
+    "test_fraction": 0.05,
+    "track_training_time": null,
+    "train_dims": [
+        "efeTEM_GB"
+    ],
+    "validation_fraction": 0.05
+}

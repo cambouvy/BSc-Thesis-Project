@@ -1,0 +1,9 @@
+ipython
+numpy
+scipy
+xarray
+pandas>=0.15.2
+numexpr
+tables
+gitpython
+netCDF4

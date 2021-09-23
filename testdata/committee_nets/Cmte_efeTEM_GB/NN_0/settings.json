@@ -1,0 +1,79 @@
+{
+    "train_dims": [
+        "efeTEM_GB"
+    ],
+    "dataset_path": "../../../datasets/LDSreduce_99_sobol_7D.h5.1",
+    "drop_outlier_above": 0.999,
+    "drop_outlier_below": 0.001,
+    "hidden_neurons": [
+        128,
+        128,
+        128
+    ],
+    "hidden_activation": [
+        "tanh",
+        "tanh",
+        "tanh"
+    ],
+    "drop_chance": 0.0,
+    "output_activation": "none",
+    "standardization": "normsm_1_0",
+    "calc_standardization_on_nonzero": true,
+    "scale_targets_together": true,
+    "goodness_only_on_unstable": true,
+    "instance_weighting": false,
+    "validation_instance_weighting": false,
+    "weights_path": "./training_weights.h5.1",
+    "goodness": "mse",
+    "cost_l2_scale": 5e-05,
+    "cost_l1_scale": 0.0,
+    "cost_stable_positive_scale": 0.001,
+    "cost_stable_positive_offset": -5.0,
+    "cost_stable_positive_function": "block",
+    "early_stop_after": 15,
+    "early_stop_measure": "loss",
+    "minibatches": 1000,
+    "validation_batches": 1,
+    "weight_init": "normsm_1_0",
+    "bias_init": "normsm_1_0",
+    "validation_fraction": 0.05,
+    "test_fraction": 0.0,
+    "dtype": "float32",
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "lbfgs_maxfun": 1000,
+    "lbfgs_maxiter": 15000,
+    "lbfgs_maxls": 20,
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "adadelta_rho": 0.95,
+    "rmsprop_decay": 0.9,
+    "rmsprop_momentum": 0.0,
+    "max_epoch": 5,
+    "use_generator": true,
+    "epochs_per_shuffle": 1,
+    "shuffle_before_split": true,
+    "steps_per_report": null,
+    "epochs_per_report": null,
+    "save_checkpoint_networks": null,
+    "save_best_networks": null,
+    "track_training_time": null,
+    "track_hyperparams": [],
+    "nn_type": "FFNN",
+    "cost_l2_scale_CGM": 1e-06,
+    "cost_l1_scale_CGM": 1e-06,
+    "common_layers": [
+        64
+    ],
+    "common_layers_activation": [
+        "tanh"
+    ],
+    "individual_layers": [
+        64,
+        64
+    ],
+    "individual_layers_activation": [
+        "tanh",
+        "tanh"
+    ]
+}

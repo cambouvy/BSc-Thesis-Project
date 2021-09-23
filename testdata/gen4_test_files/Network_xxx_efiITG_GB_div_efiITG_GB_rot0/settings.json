@@ -1,0 +1,53 @@
+{
+    "adadelta_rho": 0.95,
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "bias_init": "normsm_1_0",
+    "calc_standardization_on_nonzero": true,
+    "cost_l1_scale": 0.0,
+    "cost_l2_scale": 0.0005,
+    "cost_stable_positive_function": "block",
+    "cost_stable_positive_offset": -5.0,
+    "cost_stable_positive_scale": 0.01,
+    "dataset_path": "/home/karel/working/QLKNN-develop/training_gen4_8D_rot_three_filter10.h5",
+    "drop_chance": 0.0,
+    "drop_outlier_above": 0.999,
+    "drop_outlier_below": 0.001,
+    "dtype": "float32",
+    "early_stop_after": 15,
+    "early_stop_measure": "loss",
+    "epochs_per_report": null,
+    "goodness": "mse",
+    "goodness_only_on_unstable": true,
+    "hidden_activation": [
+        "tanh",
+        "tanh",
+        "tanh"
+    ],
+    "hidden_neurons": [
+        128,
+        128,
+        128
+    ],
+    "lbfgs_maxfun": 1000,
+    "lbfgs_maxiter": 15000,
+    "lbfgs_maxls": 20,
+    "learning_rate": 0.001,
+    "max_epoch": null,
+    "minibatches": 50,
+    "optimizer": "adam",
+    "output_activation": "none",
+    "rmsprop_decay": 0.9,
+    "rmsprop_momentum": 0.0,
+    "save_best_networks": null,
+    "save_checkpoint_networks": null,
+    "standardization": "normsm_1_0",
+    "steps_per_report": null,
+    "test_fraction": 0.05,
+    "track_training_time": null,
+    "train_dims": [
+        "efiITG_GB_div_efiITG_GB_rot0"
+    ],
+    "validation_fraction": 0.05,
+    "weight_init": "normsm_1_0"
+}

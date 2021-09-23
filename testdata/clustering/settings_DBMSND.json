@@ -1,0 +1,18 @@
+{
+    "dims": [
+        "Ate",
+        "Ati0",
+        "efeITG_GB"
+    ],
+    "dataset_path": "./path_to_the_input_dataset.h5",
+    "output_name": "./path_to_the_resulting_output.h5",
+    "kmeans_dask": false,
+    "initial_eps": 1.0,
+    "reduction_threshold": 50,
+    "min_eps": 0.3,
+    "min_reduction": 20,
+    "min_samples": 2,
+    "min_cluster_size": 6,
+    "zeta": 0,
+    "tau": 1000
+}
